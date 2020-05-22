@@ -10,4 +10,4 @@ Now, we just start our project. Up to now, we have already done:
 - Basal models have benn designed and created
 - Some admin configuration has been done
 
-Hope we could uppdate more quickly and much better! :)
+Hope we could update more quickly and much better! :)
