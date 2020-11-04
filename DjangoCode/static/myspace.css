@@ -1,0 +1,189 @@
+.bdwj {
+    width: 100px;
+    height: 35px;
+    background-color: #66696b;
+    font-size: 23px;
+    font-style: normal;
+    text-align: center;
+    color: #fff;
+    border-radius: 0px;
+    position: absolute;
+    text-align: center;
+    top: 12px;
+    left: 250px;
+}
+
+.xtsz {
+    width: 100px;
+    height: 35px;
+    background-color: #66696b;
+    font-size: 23px;
+    font-style: normal;
+    text-align: center;
+    color: #fff;
+    border-radius: 0px;
+    position: absolute;
+    text-align: center;
+    top: 12px;
+    left: 380px;
+}
+
+.hdzy {
+    width: 100px;
+    height: 35px;
+    background-color: #66696b;
+    font-size: 23px;
+    font-style: normal;
+    text-align: center;
+    color: #fff;
+    border-radius: 0px;
+    position: absolute;
+    text-align: center;
+    top: 12px;
+    left: 510px;
+}
+
+.body {
+    /*height: 700px;*/
+    background-color: #ffffff;
+    position: absolute;
+    top: 75px;
+    left: 20px;
+}
+
+.leftpage {
+    width: 300px;
+    height: 700px;
+    background-color: #ffffff;
+    position: relative;
+    top: 20px;
+    left: 2%;
+    /*border: 2px solid rgb(218, 209, 209);*/
+}
+
+.box {
+    width: 280px;
+    background: #ffffff;
+    margin: 50px;
+    border: 2px solid rgb(218, 209, 209);
+}
+
+.atab {
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    color: #000;
+    line-height: 30px;
+    /*background: #88c3da;*/
+}
+
+.box_div {
+    position: relative;
+    border: 1px;
+    border-color: rgb(40, 41, 43);
+}
+
+span {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 0;
+    height: 10px;
+    display: block;
+    border-top: 6px solid #fff;
+    border-bottom: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+}
+
+p {
+    height: 0px;
+    overflow: hidden;
+    font-size: 15px;
+    color: rgb(117, 123, 124);
+    line-height: 20px;
+    position: relative;
+    left: 20px;
+}
+
+.box_div:target p {
+    height: 100px;
+}
+
+.box_div:target span {
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid rgb(110, 99, 99);
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+}
+
+.rightpage1 {
+    width: 880px;
+    height: 50px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 70px;
+    left: 350px;
+}
+
+.rightpage1-1 {
+    width: 120px;
+    height: 40px;
+    background-color: #9dcfdf;
+    float: left;
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.rightpage1-2 {
+    margin-top: 4px;
+}
+
+.rightpage1-3 {
+    width: 40px;
+    height: 40px;
+    float: right;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #ffffff;
+}
+
+.rightpage2 {
+    width: 880px;
+    height: 645px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 140px;
+    left: 360px;
+}
+
+tr:hover {
+    background-color: rgba(139, 231, 167, 0.616);
+}
+
+.button {
+    border-radius: 15px;
+    background-color: #fff;
+    border: none;
+    box-shadow: #fff;
+}
+
+.touxiang div {
+    display: none;
+    /*默认隐藏*/
+}
+
+.touxiang:hover div {
+    display: initial;
+    /*当鼠标hover时展示*/
+}

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文章详情展示界面</title>
+    <link rel="stylesheet" href={% static "passage.css" %}>
+</head>
+
+<body>
+    <div class="header width">
+
+
+        <div class="logo">
+            <img src={% static "pictures/Logo-4.jpg" %}>
+        </div>
+
+        <div class="search">
+            <form>
+                <input type="search" placeholder="搜索" </form>
+        </div>
+
+        <div class="sosuo">
+            <img src="pictures/sosuo.jpg">
+        </div>
+
+        <div class="touxiang">
+            <img src="pictures/toux.jpg">
+        </div>
+
+    </div>
+    <div class="fengexian">
+        <img src="pictures/fengexian.jpg">
+    </div>
+
+
+    <div class="body">
+
+        <div class="leftpage">
+
+            <p class="biaotizi">{{ntitle}}</p><br>
+            <table>
+                <tr style="color: rgba(159, 167, 159, 0.863);">
+                    <td style="width: 600px; color: rgba(86, 116, 86, 0.863);">
+                        <p>时间：2020.3.24 12:03:07</p>
+                    </td>
+                    <td style="width: 200px;" ">
+                        <p>阅读量：2324</p>
+                    </td>
+                </tr>
+            </table>
+            <div style="width: 800px; height: 1px; background-color: grey; ">
+
+            </div>
+            <div>
+                <p style="font-size: 20px; font-family: Arial, Helvetica, sans-serif; ">&nbsp &nbsp &nbsp &nbsp人们站在一个等待被处决的圈子里。 计数从圆圈中的指定点开始，
+                并沿指定方向围绕圆圈进行。 在跳过指定数量的人之后，执行下一个人。 
+                对剩下的人重复该过程，从下一个人开始，朝同一方向跳过相同数量的人，
+                直到只剩下一个人，并被释放。问题即，给定人数、起点、方向和要跳过的数字，
+                选择初始圆圈中的位置以避免被处决。</p>
+                <br>
+                <table>
+                    <tr>
+                        <td style="width: 500px; ">
+
+                        </td>
+                        <td style="width: 100px; ">
+                        <img src="pictures/share.svg " class="littletubiao "><p style="font-size: 12px; color: grey; ">分享</p>
+                        </td>
+                        <td style="width: 100px; ">
+                           <img src="pictures/like.svg " class="littletubiao "><p style="font-size: 12px; color: grey; ">赞</p>
+                        </td>
+                        <td style="width: 100px; ">
+                            <img src="pictures/speech.svg " class="littletubiao "><p style="font-size: 12px; color: grey; ">评论</p>
+                        </td>
+
+                    </tr>
+                
+            </table>
+            <div style="width: 800px; height: 1px; background-color: grey; ">
+
+            </div>
+
+            <table>
+                <tr>
+<p style="font-family: Arial, Helvetica, sans-serif; font-size: 25px; font-weight: 300; ">留言评论</p>
+                </tr>
+                <br>
+                <tr>
+                <td style="width: 30px; ">
+                        <img src="pictures/touxiang.jpg " class="zhongtubiao ">
+                </td>
+                <td style="width: 600px; ">
+                        <div class="review ">
+                        <form >
+                            <input type="search " placeholder="留下你的观点与作者交流 ">
+                        </form>
+                    </div>
+
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+    <div class="rightpage ">
+        <div class="rightpagetop ">
+            <div class="rightpage1 ">
+                <!-- "pictures/touxiang.jpg " -->
+                <img src="{{ nhead.url }}">
+            </div>
+        
+            <div class="rightpage2 ">
+             <p style="height: 30px; font-size: 25px; "> 
+                用户昵称</p>
+            
+            <p style="height: 30px; font-size: 16px; ">
+                ID:389739616</p>
+            
+            </div>
+        </div>
+        <br>
+        
+        <div class="rightpagetop2 ">
+            <table>
+            <tr>
+        
+                <td style="width: 100px; text-align: center; ">
+                    <p style="font-size: 30px; ">
+                        71
+                        </p>
+                        <p style="font-size: 16; ">
+                            原创
+                        </p>
+                    </td>
+                
+                <td style="width: 100px; text-align: center; ">
+                    <p style="font-size: 30px; ">
+                        13
+                    </p>
+                    <p style="font-size: 16px; ">
+                        获赞
+                    </p>
+                </td>
+                <td style="width: 100px; text-align: center; ">
+                    <p style="font-size: 30px; ">
+                        2
+                    </p>
+                    <p style="font-size: 16px; ">
+                        评论
+                    </p>
+                </td>
+                <td style="width: 100px; text-align: center; ">
+                    <p style="font-size: 30px; ">
+                        768
+                    </p>
+                    <p style="font-size: 16px; ">
+                        访问
+                    </p>
+                </td>
+
+                </tr>
+            </table>
+        </div>
+        <div style="width: 400px; height: 3px; background-color: rgb(199, 206, 209); ">
+        
+        </div>
+        <div style="width: 10px; height: 25px; background-color: indianred; position: relative; left: 10px; top: 10px; "></div>
+   <div style="width: 150px; height: 25px; font-size: 20px; position: relative; left: 25px;top: -18px; "><p>相关推荐文章</p>
+    </div> 
+
+    <div style="position: relative; left: 30px; ">
+        
+           <!--  <li >
+                文章一
+            </li>
+            <br>
+            <li>
+                文章二
+            </li>
+            <br>
+            <li>
+                文章三
+            </li>
+            <br>
+            <li >
+                文章四
+            </li> -->
+
+
+            {%for p in relatedpsg%}
+                <li>
+                    <!--这里可以写python变量或者类属性-->
+                    <a href={{ p.nid }}>{{p.ntitle}}</a>
+                </li><br/>
+            {%endfor%}
+    </div>
+</div>
+    
+
+</body>
+
+</html>

@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.width {
+    /*width: 1263px;*/
+}
+
+.header {
+    height: 60px;
+    background-color: #ffffff;
+    /*position:fixed;*/
+}
+
+.logo {
+    width: 60px;
+    height: 51px;
+    background-color: #ffffff;
+    font-size: 20px;
+    font-style: normal;
+    text-align: center;
+    color: #fff;
+    border-radius: 0px;
+    position: absolute;
+    top: 5px;
+    left: 2%;
+}
+
+.search {
+    width: 250px;
+    /* height: 10px; */
+    background-color: #fff;
+    font-size: 15px;
+    font-style: normal;
+    text-align: center;
+    color: black;
+    border-radius: 20px;
+    margin: 10px;
+    outline-style: none;
+    position: absolute;
+    top: 6px;
+    left: 65%;
+}
+
+.sosuo {
+    width: 200px;
+    height: 60px;
+    background-color: #ffffff(240, 236, 237);
+    font-size: 20px;
+    font-style: normal;
+    text-align: center;
+    color: #fff;
+    border-radius: 0px;
+    position: absolute;
+    top: 14px;
+    left: 80%;
+}
+
+.touxiang {
+    width: 60px;
+    height: 60px;
+    /*background-color: #ffffff(240, 236, 237);*/
+    color: #fff;
+    border-radius: 0px;
+    position: absolute;
+    top: 5px;
+    right: 30px;
+}
+
+.touxiang img {
+    width: 45px;
+    height: 45px;
+}
+
+.search input {
+    width: 250px;
+    height: 30px;
+    outline-style: none;
+    font-size: 16px;
+    border-radius: 6px;
+    /*border-color: rgb(187, 186, 186);*/
+}
+
+/*.fengexian {
+    height: 2px;
+    position: absolute;
+    top: 45px;
+}*/
+
+.sosuo button {
+    height:30px;
+    width:100px;
+    border-radius: 6px;
+    /*border-color: #A4D6ED;*/
+    background-color: #A4D6ED;
+    border: None;
+    color: #FFFFFF;
+    margin-left:30px;
+}
+
+
+.footer{
+    width:100%;
+    position:absolute;
+    bottom:2%;
+    /*float: bottom;*/
+    text-align:center;
+}
+
+.footer p{
+    font-size:10px;
+    font-color:#D7D9DA;
+    text-align:center;
+}

@@ -1,0 +1,158 @@
+
+.body {
+    /*height: 700px;*/
+    background-color: #ffffff;
+    position: absolute;
+    top: 75px;
+    left: 4%;
+}
+
+.leftpage {
+    height: 700px;
+    width: 800px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 1px;
+    left: 10px;
+}
+
+.splitline{
+    width: 100%; 
+    height: 2px; 
+    background-color: grey; 
+    margin-top:10px; 
+    margin-bottom:10px;
+}
+
+#content{
+    position:relative;
+    top:15px;
+    padding: 10px 5px 10px 5px;
+    line-height:35px;
+    /*text-indent:2rem;*/
+}
+
+#dibudianzan tr td{
+    text-align:center;
+}
+
+.title{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 25px; 
+    font-weight: 700;
+}
+
+
+.rightpage {
+    height: 570px;
+    width: 400px;
+    position: fixed;
+    right: 5%;
+    /*right: 95%;*/
+    box-shadow: wheat;
+    border-radius: 5px;
+    border: 2px solid;
+    border-color: rgb(84, 115, 182);
+    box-shadow: rgb(91, 132, 143) 2px 2px 1px 0px;
+}
+
+.rightpagetop {
+    height: 60px;
+    width: 350px;
+    background-color: #ffffff;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.rightpage1 {
+    height: 60px;
+    width: 100px;
+    background-color: #ffffff;
+    position: relative;
+    top: 15px;
+    left: 25px;
+}
+
+.rightpage2 {
+    height: 60px;
+    width: 200px;
+    background-color: #ffffff;
+    position: relative;
+    top: -45px;
+    left: 100px;
+}
+
+
+.xian {
+    width: 800px;
+    height: 1px;
+    background-color: darkgrey;
+}
+
+.biaotizi {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: black;
+}
+.littletubiao {
+    width: 15px;
+    height: 15px;
+}
+.zhongtubiao {
+    width: 30px;
+    height: 30px;
+}
+.bigtubiao {
+    width: 40px;
+    height: 40px;
+}
+
+
+#writereview {
+    /*width: 700px;
+    height: 80px;*/
+    /*border-radius: 10px;*/
+    /*background-color: rgba(247, 228, 122, 0.74);*/
+    /*border-color: darkslateblue;*/
+    /*border-color: #000;
+    border: 2px;*/
+    /*position:relative;*/
+    left:15px;
+    font-size: 20px;
+}
+
+.button {
+    border-radius: 15px;
+    border-color: #fff;
+    background-color: #ffffff;
+}
+
+#submitreview{
+    height:71px;
+    width:60px;
+    background-color:#A4D6ED;
+    border:None;
+    border-radius: 10px;
+    color:#fff;
+}
+
+#submitreview:hover{
+    background-color:#1ABFF5;
+}
+
+.recommend li{
+    line-height:35px;
+}
+
+.recommend li a{
+    line-height:35px;
+    text-decoration:None;
+    color:#000;
+}
+
+.recommend li a:hover{
+    font-weight:800;
+    color:#5473B6;
+}

@@ -1,0 +1,120 @@
+    .bg {
+    width: 1255px;
+    height: 700px;
+    background-color: rgb(223, 219, 219);
+    font-size: 60px;
+    font-style: normal;
+    text-align: left;
+    color: #fff;
+    border-radius: 0px;
+    line-height: 100px;
+}
+
+.logo {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(223, 219, 219);
+    font-size: 60px;
+    font-style: normal;
+    text-align: center;
+    color: #fff;
+    margin: 10px;
+    border-radius: 5px;
+    line-height: 100px;
+}
+
+.log {
+    width: 380px;
+    height: 500px;
+    background-color: #fff;
+    text-align: center;
+    color: #fff;
+    margin: auto;
+    border-radius: 5px;
+    line-height: 20px;
+}
+
+a {
+    width: 100px;
+    height: 40px;
+    background-color: #fff;
+    text-align: center;
+    color: rgba(199, 193, 193, 0.87);
+}
+
+a:hover {
+    color: rgb(241, 188, 224)
+}
+
+.dengzhu {
+    width: 120px;
+    height: 30px;
+    background-color: #fff;
+    font-size: 30px;
+    text-align: center;
+    float: left;
+    margin: 30px;
+    margin-left: 35px;
+}
+
+.reg_form {
+    width: 380px;
+    height: 300px;
+    /* background-color: rgb(175, 92, 92);
+    margin: 10px 0;
+    font-size: 18px;
+    
+    color: black;
+    text-align: left;
+    float: left;
+    margin-left: 30px; */
+    float: left;
+    margin: 10px;
+}
+
+.reg_form p {
+    /* display: inline-block; */
+    /* width: 60px; */
+    /* text-align: center; */
+    background-color: #fff;
+    width: 150px;
+    height: 25px;
+    font-size: 25px;
+    color: rgb(90, 88, 88);
+    margin: auto;
+    margin-top: 20px;
+    margin-left: -2px;
+}
+
+.reg_form input {
+    width: 300px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-left: -14px;
+    margin-top: 5px;
+    outline-style: none;
+    font-size: 20px;
+}
+
+.logbutton {
+    width: 270px;
+    /* 宽度 */
+    height: 40px;
+    /* 高度 */
+    border-width: 0px;
+    /* 边框宽度 */
+    border-radius: 3px;
+    /* 边框半径 */
+    background: #1E90FF;
+    /* 背景颜色 */
+    cursor: pointer;
+    /* 鼠标移入按钮范围时出现手势 */
+    outline: none;
+    /* 不显示轮廓线 */
+    font-family: Microsoft YaHei;
+    /* 设置字体 */
+    color: white;
+    /* 字体颜色 */
+    font-size: 17px;
+    /* 字体大小 */
